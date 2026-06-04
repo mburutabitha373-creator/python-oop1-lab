@@ -1,5 +1,6 @@
 class Coffee:
     def __init__(self, size, price):
+        self._size = None
         self.size = size
         self.price = price
 
